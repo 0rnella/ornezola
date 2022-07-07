@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>Ornella K. Friggit</title>
+    {% block css %}
+      <link href="{{ get_url(path='style.css', trailing_slash=false) | safe }}" rel="stylesheet"/>
+    {% endblock css %}
   </head>
 
   <body>
