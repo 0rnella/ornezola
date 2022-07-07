@@ -1,7 +1,10 @@
 +++
 title = "Money Recap and Lessons Learned in 2020"
 date = 2021-01-11
+
+[extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/745kuGnYXAngyppJKzylOz/afcec29e2e1c4f926533fe6459eeefcc/pexels-john-guccione-wwwadvergroupcom-3483098.jpg"
+header_image_alt="dollar bills featuring Benjamin Franklin"
 +++
 
 I've learned a lot about money on the Internet, so I'll give back and share some (good and bad) financial decisions I made in 2020. For context, I started working in tech in September 2019, and at Disney in Nov 2019. Prior to that, from 2017 to 2019, my income had been 30-45k per year. It tripled when I moved into coding.

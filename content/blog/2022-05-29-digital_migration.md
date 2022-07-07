@@ -1,7 +1,13 @@
 +++
 title = "Digital Migration"
 date = 2022-05-29
+
+[taxonomies]
+tags = ["existential"]
+
+[extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/xISX8f4dqazgRKFUP1alE/ff79bd1578bd723e0e49243cab655d09/circuit.jpg"
+header_image_alt="photo of an electronic circuit"
 +++
 
 

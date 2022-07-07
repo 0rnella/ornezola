@@ -1,7 +1,14 @@
 +++
 title = "Comprehensive advice to get your first dev job"
 date = 2021-10-16
+
+
+[taxonomies]
+tags = ["career"]
+
+[extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/400WAhk9JvERwbFEQ9PMhh/a7916a403af451269032fb47700f7136/you-will-solve-that-leetcode-easy-today.jpeg"
+header_image_alt="meme of man pointing in the mirror, with caption 'You will solve that leetcode easy today'"
 +++
 
 After you complete college, bootcamp, or self-training, it can be really hard to try to get your first junior role in tech. In the last 2 years, I’ve talked to so many friends and family about this very challenging process, and recently thought I should share this with a larger audience. I’m no expert, yadayada, but these tips were really helpful for me, so I decided to put together a comprehensive guide to job searching.
@@ -122,8 +129,6 @@ In sum, all these approaches have great potential and drawbacks. I recommend a c
 If, like me, you have social anxiety, you may find it useful to have an idea of the social expectations for this kind of reachout. For Linkedin, I've attached some examples of messages I’ve sent and received in the “I’d like to know more about your company because I want to work there, can we have a coffee chat?” scenario.
 
 This one I sent to a super kind stranger, who ended up taking me on a tour of her office and bought me lunch:
-
-![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI1NCIgaGVpZ2h0PSIzODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)
 
 ![Screenshot reads: Hi /redacted/ I'm currently finishing up the Grace Hopper Program and I'm also a Barnard'16 alum! I was looking into /redacted/ and I'm so glad I stumbled upon your profile. I'd love to connect. Also, if you have any time, would you be free to get coffee in the next couple of weeks? Very best, Ornella](./linkedin_reachout_1.png)
 

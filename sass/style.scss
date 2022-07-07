@@ -16,7 +16,18 @@ $text-color: $base-dark;
 $link-color: $accent-dark;
 $article-tag: $accent-mediumlight;
 
-
+@media only screen and (max-width : 600px) {
+    article.blog-preview {
+        display: flex;
+        flex-direction: column;
+        .preview-title{
+            order: -1;
+        }
+        .pipe-separator {
+            display: none;
+        }
+    }
+}
 /**
  * Style
  */
@@ -52,6 +63,9 @@ main {
   width: 95%;
 }
 
+img {
+    max-width: 100%;
+}
 
 a {
     color: $text-color;
@@ -92,6 +106,5 @@ article {
 footer {
   padding: 1rem 0;
   margin: 0 auto;
-  max-width: 540px;
   text-align: center;
 }

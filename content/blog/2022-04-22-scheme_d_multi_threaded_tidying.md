@@ -1,10 +1,13 @@
 +++
 title = "Scheme D: “Multi-threaded Tidying”"
 date = 2022-04-22
-header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/3H26SZkJeCZe7MUGmCzgqm/a1478b59973771e58a609b62f7987655/D05BB118-54F2-43CE-BE95-1343B4D9B9C8.webp"
 
 [taxonomies]
 tags = ["scheme"]
+
+[extra]
+header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/3H26SZkJeCZe7MUGmCzgqm/a1478b59973771e58a609b62f7987655/D05BB118-54F2-43CE-BE95-1343B4D9B9C8.webp"
+header_image_alt="shot from the Fantasia short where brooms are holding buckets and descending into a flooded basement"
 +++
 
 Hello and welcome to the end of D!

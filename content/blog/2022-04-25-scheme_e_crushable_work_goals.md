@@ -1,10 +1,13 @@
 +++
 title = "Scheme E: “Crushable Work Goals”"
 date = 2022-04-25
-header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/3GHQsLsfA4IhM7rlRC83O2/642db3489b8ea527f0d4457e5b1625a7/crush.jpg"
 
 [taxonomies]
-tags = ["scheme"]
+tags = ["scheme", "career"]
+
+[extra]
+header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/3GHQsLsfA4IhM7rlRC83O2/642db3489b8ea527f0d4457e5b1625a7/crush.jpg"
+header_image_alt="cans of a red soda in a 6-pack reading the word `Crush`"
 +++
 
 Right off the bat, two things.

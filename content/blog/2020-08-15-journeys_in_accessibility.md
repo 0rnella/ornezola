@@ -1,7 +1,10 @@
 +++
 title = "Journeys in Accessibility: an interview for Society x Tech"
 date = 2020-08-15
+
+[extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/2q3RwvadxPrdMoFGgXcAgR/0c68f313ec8dfb87466439a785d8624b/BrailleKeyboard.jpg"
+header_image_alt="light hands using a braille keyboard"
 +++
 
 

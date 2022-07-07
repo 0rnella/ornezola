@@ -1,7 +1,10 @@
 +++
 title = "Feature in Business Insider: Resistance Map"
 date = 2020-11-16
+
+[extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/7LZJG5ItPPbvtR6pRWxkGo/687f5a9c9c1c6c46dee3c6123dddec4f/Screen_Shot_2020-11-17_at_05.30.44.png"
+header_image_alt="dark picture of cops in riot gear with overlay reading Resistance Map"
 +++
 
 In June of 2020, I sat bleary-eyed in my makeshift home office and felt like a useless fraud. What was the point of sitting all day writing code for money when outside, there were Black people being killed and brutalized every day? At the time, I had a friend staying over for a couple of weeks who usually lived with an immunocompromised relative, so the risk associated with marching was irresponsible. I still knew there was something I could do.
