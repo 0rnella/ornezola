@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ornella K. Friggit</title>
+  </head>
+
+  <body>
+    <header>
+        <b><a href="{{ config.base_url }}">O.F.K.</a></b>
+        <nav>
+            <a href="{{ config.base_url }}">Home</a>
+            <a href="{{ get_url(path="@/about.md") }}">About</a>
+            <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a>
+        </nav>
+    </header>
+    <main class="section">
+      <div class="container">{% block content %} {% endblock %}</div>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://github.com/0rnella" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+    </footer>
+  </body>
+</html>
