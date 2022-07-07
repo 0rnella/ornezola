@@ -2,6 +2,9 @@
 title = "Scheme A: “No Solutions”"
 date = 2022-01-28
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/22V6ER5itwSMVgKgAh1Mgv/449070ad29e03a9dedc5eb9facc9785f/85D64D20-E966-4BD3-9409-8E2AAD016F8F.jpeg"
+
+[taxonomies]
+tags = ["scheme"]
 +++
 
 It's the last day of the month of A (ornellember format), so I'd like to start a little series. I consider myself to be a schemer— I don’t manipulate people, but I usually have a plan, or three, to deal with stuff ranging from socially tricky situations to getting a promotion.

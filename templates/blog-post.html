@@ -1,7 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">{{ page.title }}</h1>
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
-{{ page.content | safe }}
+<article>
+    <h1 class="title">{{ page.title }}</h1>
+    <time itemprop="datePublished" datetime="{{ page.date }}">
+        <strong>{{ page.date }}</strong>
+    </time>
+    {{ page.content | safe }}
+</article>
 {% endblock content %}

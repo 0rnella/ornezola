@@ -2,6 +2,9 @@
 title = "Scheme B: “First Week Social”"
 date = 2022-02-25
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/4xUHUYNugHHYzwYfumbzPL/6043a6b2b6fafafc7118d3e754d1c8b9/butterfly.jpg"
+
+[taxonomies]
+tags = ["scheme"]
 +++
 
 

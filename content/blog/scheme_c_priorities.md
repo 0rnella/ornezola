@@ -2,6 +2,9 @@
 title = "Scheme C: “Priorities”"
 date = 2022-03-23
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/41kxPahYtbbVMuAz9OK5cO/1f55e29cbec4581490936b059731e63f/pexels-antoni-shkraba-4706134.jpg"
+
+[taxonomies]
+tags = ["scheme"]
 +++
 
 This is a post I am writing a few days into D, but I am going to pretend I published it on time as scheme C. The reason it's a little late is kind of explained by the rest of the post!

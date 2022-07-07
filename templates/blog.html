@@ -2,9 +2,29 @@
 
 {% block content %}
 <h1 class="title">{{ section.title }}</h1>
+<p>All my writings in one place, about tech, life updates, etc.</p>
+
 <ul>
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <li >
+    <article class="blog-preview">
+      <p class="preview-title">
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      </p>
+
+      <time itemprop="datePublished" datetime="{{ page.date }}">
+        {{ page.date }}
+      </time>
+      {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
+        <p>
+          Tags: 
+          {% for tag in page.taxonomies.tags %}
+            <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </article>
+  </li>
   {% endfor %}
 </ul>
 {% endblock content %}
