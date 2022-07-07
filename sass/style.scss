@@ -3,7 +3,7 @@
  */
 
 /* Base colors */
-$base-light: white;
+$base-light: #edf2f4;
 $base-dark: #212121;
 $accent-light: #FFCDB2;
 $accent-mediumlight: #E5989B;
@@ -13,7 +13,7 @@ $accent-dark: #6D6875;
 /* Usage colors (light) */
 $base-background: $base-light;
 $text-color: $base-dark;
-$link-color: $accent-dark;
+$link-color: $accent-mediumdark;
 $article-tag: $accent-mediumlight;
 
 @media only screen and (max-width : 600px) {
@@ -26,6 +26,9 @@ $article-tag: $accent-mediumlight;
         .pipe-separator {
             display: none;
         }
+    }
+    footer nav a {
+        display: block;
     }
 }
 /**
@@ -52,7 +55,14 @@ body {
 header {
     padding: 2rem;
     width: 100%;
-    border-bottom: 3px solid $accent-mediumlight;
+    border-bottom: 3px solid $accent-mediumdark;
+    margin: auto;
+}
+
+footer {
+    padding: 2rem;
+    width: 100%;
+    border-top: 3px solid $accent-mediumdark;
     margin: auto;
 }
 
@@ -61,6 +71,7 @@ main {
   margin: 0 auto;
   max-width: 960px;
   width: 95%;
+  min-height: 75vh;
 }
 
 img {
@@ -101,10 +112,4 @@ article {
         color: $text-color;
         text-decoration-color: $article-tag;
     }
-}
-
-footer {
-  padding: 1rem 0;
-  margin: 0 auto;
-  text-align: center;
 }
