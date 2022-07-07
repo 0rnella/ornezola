@@ -8,21 +8,19 @@
   {% for page in section.pages %}
   <li >
     <article class="blog-preview">
-      <p class="preview-title">
-        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-      </p>
-
-      <time itemprop="datePublished" datetime="{{ page.date }}">
-        {{ page.date }}
-      </time>
+      <p>
+        <time itemprop="datePublished" datetime="{{ page.date }}">
+          {{ page.date }}
+        </time> 
+        | 
+        <a class="preview-title" href="{{ page.permalink | safe }}">{{ page.title }}</a>
       {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
-        <p>
-          Tags: 
+          | 
           {% for tag in page.taxonomies.tags %}
-            <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
+            <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }} </a>
           {% endfor %}
-        </p>
       {% endif %}
+    </p>
     </article>
   </li>
   {% endfor %}

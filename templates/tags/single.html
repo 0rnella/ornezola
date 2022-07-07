@@ -7,9 +7,17 @@
 
     <ul>
         {% for page in term.pages %}
-            <li class="blog-preview">
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-            </li>
-        {% endfor %}
+        <li>
+            <article class="blog-preview">
+                <p>
+                <time itemprop="datePublished" datetime="{{ page.date }}">
+                    {{ page.date }}
+                </time> 
+                | 
+                <a class="preview-title" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                </p>
+            </article>
+            {% endfor %}
+        </li>
     </ul>
 {% endblock content %}
