@@ -2,19 +2,9 @@
  * Variables
  */
 
-/* Base colors */
-$base-light: #edf2f4;
-$base-dark: #212121;
-$accent-light: #FFCDB2;
-$accent-mediumlight: #E5989B;
-$accent-mediumdark: #B5838D;
-$accent-dark: #6D6875;
-
-/* Usage colors (light) */
-$base-background: $base-light;
-$text-color: $base-dark;
-$link-color: $accent-mediumdark;
-$article-tag: $accent-mediumlight;
+@import "colors";
+@import "article";
+@import "home";
 
 @media only screen and (max-width : 600px) {
     article.blog-preview {
@@ -52,18 +42,18 @@ body {
   background: $base-background;
 }
 
-header {
+header, footer {
     padding: 2rem;
     width: 100%;
-    border-bottom: 3px solid $accent-mediumdark;
     margin: auto;
+    box-sizing: border-box;
 }
 
+header {
+    border-bottom: 3px solid $accent-mediumdark;
+}
 footer {
-    padding: 2rem;
-    width: 100%;
     border-top: 3px solid $accent-mediumdark;
-    margin: auto;
 }
 
 main {
@@ -91,25 +81,7 @@ a {
     }
 }
 
-blockquote {
-  color: rgba($text-color, 0.7);
-  border-left: 2px solid rgba($text-color, 0.7);
-  padding: 0 1rem;
-  margin: 2rem 0;
-}
 
-article {
-    &.blog-preview {
-        .preview-title {
-            font-weight: bold;
-        }
-        time {
-            font-size: $accent-dark;
-        }
-    }
+.title {
 
-    .tag {
-        color: $text-color;
-        text-decoration-color: $article-tag;
-    }
 }

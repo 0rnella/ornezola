@@ -1,0 +1,13 @@
+/* Base colors */
+$base-light: #edf2f4;
+$base-dark: #212121;
+$accent-light: #FFCDB2;
+$accent-mediumlight: #E5989B;
+$accent-mediumdark: #B5838D;
+$accent-dark: #6D6875;
+
+/* Usage colors (light mode) */
+$base-background: $base-light;
+$text-color: $base-dark;
+$link-color: $accent-mediumdark;
+$article-tag: $accent-mediumlight;
