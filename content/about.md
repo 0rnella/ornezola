@@ -9,7 +9,7 @@ I currently live in Amsterdam. I am Burkinabè, French, and American, and I have
 
 ## What do I do?
 
-I currently work as a full-stack software engineer at Disney Streaming, on the Disney+/Star+ Web team. I consistently dedicate time to helping others in the context of tech, through volunteering, mentoring and open coffee chats. I also draw and do DIY around the house.
+I currently work as a full-stack software engineer at Disney Streaming. I consistently dedicate time to helping others in the context of tech, through volunteering, mentoring and open coffee chats. I also draw and do DIY around the house.
 
 ## How (should you refer to me)?
 
