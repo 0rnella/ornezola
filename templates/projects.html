@@ -6,7 +6,9 @@
 
 <ul>
   {% for page in section.pages | sort(attribute="extra.date_built") | reverse %}
-  <li class="project-preview">
+  <li>
+    <article class="project-preview">
+        <p>
         <time 
             {% if page.extra.date_approximate | safe %}
                 data-date-approximate
@@ -26,6 +28,8 @@
           {% endfor %}
         </span>
       {% endif %}
+    </p>
+    </article>
   </li>
   {% endfor %}
 </ul>

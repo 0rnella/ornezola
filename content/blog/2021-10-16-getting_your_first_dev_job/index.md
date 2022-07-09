@@ -7,8 +7,7 @@ date = 2021-10-16
 tags = ["career"]
 
 [extra]
-header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/400WAhk9JvERwbFEQ9PMhh/a7916a403af451269032fb47700f7136/you-will-solve-that-leetcode-easy-today.jpeg"
-header_image_alt="meme of man pointing in the mirror, with caption 'You will solve that leetcode easy today'"
+
 +++
 
 After you complete college, bootcamp, or self-training, it can be really hard to try to get your first junior role in tech. In the last 2 years, I’ve talked to so many friends and family about this very challenging process, and recently thought I should share this with a larger audience. I’m no expert, yadayada, but these tips were really helpful for me, so I decided to put together a comprehensive guide to job searching.
@@ -56,7 +55,7 @@ Here are some examples:
 
 Overall, I’d suggest to keep an open mind — meaning, be open to criticism, and potentially even harder, be open to praise and encouragement!
 
-![a wall of dozens of haphazardly laid out, colorful pinned notes](./pexels-min-an-1629212.jpg)
+![meme of man pointing in the mirror, with caption 'You will solve that leetcode easy today](https://images.ctfassets.net/jpqeq5qzj2oc/400WAhk9JvERwbFEQ9PMhh/a7916a403af451269032fb47700f7136/you-will-solve-that-leetcode-easy-today.jpeg)
 
 ## 2\. Organization
 

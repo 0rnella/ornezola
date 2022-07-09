@@ -7,8 +7,8 @@
 <ul>
   {% for page in section.pages %}
   <li >
-    <p>
     <article class="blog-preview">
+      <p>
         <time itemprop="datePublished" datetime="{{ page.date }}">
           {{ page.date }}
         </time> 
@@ -22,8 +22,8 @@
           {% endfor %}
         </span>
       {% endif %}
+    </p>
     </article>
-  </p>
   </li>
   {% endfor %}
 </ul>

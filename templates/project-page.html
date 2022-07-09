@@ -2,6 +2,7 @@
 
 {% block content %}
 <article>
+    <div id="metadata">
     {% if page.extra.header_image_alt %}
         <img class="header-image logo" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
     {% endif %}
@@ -29,7 +30,7 @@
     </p>
     {% endif %}
 
-
+</div>
     {{ page.content | safe }}
 </article>
 {% endblock content %}

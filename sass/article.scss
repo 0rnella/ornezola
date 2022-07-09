@@ -2,7 +2,7 @@
 
 @media only screen and (max-width : 600px) {
     article {
-        &.blog-preview {
+        &.blog-preview, &.project-preview {
             display: flex;
             flex-direction: column;
 
@@ -17,17 +17,31 @@
 }
 
 article {
-    &.blog-preview {
+    &.blog-preview, &.project-preview {
         .preview-title {
             font-weight: bold;
         }
     }
 
+    h2 {
+        margin: 3rem 0;
+    }
+
+    h3 {
+        margin: 2rem 0;
+    }
+    
+    #metadata {
+        margin-bottom: 4rem;
+    }
+
     #toc {
+        text-align: left;
         padding: 2rem;
         width: 100%;
         box-sizing: border-box;
         border: 3px solid $toc-color;
+        margin-bottom: 2rem;
         
         ul {
             list-style-type: '# ';
@@ -35,6 +49,13 @@ article {
 
         a {
             text-decoration-color: $toc-color;
+        }
+    }
+
+    .header-image {
+        // width: 100%;
+        &.logo {
+            max-width: 16rem;
         }
     }
 
