@@ -6,14 +6,6 @@
         <img class="header-image logo" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
     {% endif %}
     <h1 class="title">{{ page.title }}</h1>
-    {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
-    <p>Tags: 
-        {% for tag in page.taxonomies.tags %}
-          <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
-        {% endfor %}
-    </p>
-    {% endif %}
-
     {% if page.extra.date_built %}
     <p>
         Created
@@ -29,6 +21,14 @@
         {%endfor%}
     </p>
     {% endif %}
+    {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
+    <p>Tags: 
+        {% for tag in page.taxonomies.tags %}
+          <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
+        {% endfor %}
+    </p>
+    {% endif %}
+
 
     {{ page.content | safe }}
 </article>
