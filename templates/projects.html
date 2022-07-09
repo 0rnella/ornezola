@@ -5,9 +5,26 @@
 <p>Some coding and non-coding projects I've made recently.</p>
 
 <ul>
-  {% for page in section.pages %}
+  {% for page in section.pages | sort(attribute="extra.date_built") | reverse %}
   <li class="project-preview">
+        <time 
+            data-ornellember
+            data-exact="{{ page.extra.date_exact| safe }}"
+            itemprop="dateCreated"
+            datetime="{{ page.extra.date_built }}"
+        >
+            {{ page.extra.date_built }}
+        </time> 
+        <span class="pipe-separator"> | </span>
         <a class="preview-title" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
+        <span class="pipe-separator"> | </span>
+        <span class="tags">
+          {% for tag in page.taxonomies.tags %}
+           <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
+          {% endfor %}
+        </span>
+      {% endif %}
   </li>
   {% endfor %}
 </ul>

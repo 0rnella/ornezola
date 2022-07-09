@@ -1,11 +1,14 @@
 +++
 title = "VibeCheck"
-date = 2021-01-18
+
+[taxonomies]
+tags = ["react", "nodejs"]
 
 [extra]
 header_image = "./vibecheck_logo.jpg"
 header_image_alt="A logo reading Vibe Check with a black checkmark"
-tags = ["react", "nodejs"]
+date_built = 2021-01-18
+date_exact = false
 +++
 
 ## The idea

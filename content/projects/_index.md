@@ -1,7 +1,6 @@
 +++
 title = "Projects"
-sort_by = "date"
 template = "projects.html"
-page_template = "blog-post.html"
+page_template = "project-single.html"
 pagination = 5
 +++

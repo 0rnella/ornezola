@@ -1,11 +1,14 @@
 +++
 title = "Vibro Zero"
-date = 2022-03-31
+
+[taxonomies]
+tags = ["hardware"]
 
 [extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/4U1K3ZsJ5SmNPsDhcHsk9V/58c2d993db72076bc33b26660773b430/vibro_zero.png"
 header_image_alt="A drawing of a purple blob with cutesy eyes and mouth, one black and one blue cable coming out of the top, marks indicating that it's moving, and the words Vibro Zero in black handwriting underneath"
-tags = ["hardware"]
+date_built = 2022-03-31
+date_exact = true
 +++
 
 This project was built as part of the [Women Make challenge](https://womenmake.com/30-day-challenge/edition-4/projects)!

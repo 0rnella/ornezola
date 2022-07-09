@@ -1,9 +1,12 @@
 +++
 title = "Ornellember"
-date = 2022-01-18
+
+[taxonomies]
+tags = ["typescript", "npm"]
 
 [extra]
-tags = ["typescript", "npm"]
+date_built = 2022-01-18
+date_exact = true
 +++
 
 
@@ -12,11 +15,12 @@ tags = ["typescript", "npm"]
 ornellember is an npm package to convert dates to Ornellember, a joke date format I invented based on the International Fixed Calendar. It comprises 13 days that are each 28 days in length, except month 13 (known as M), which contains 29 days on normal years and 30 days on leap years.
 
 ## Check it out
-[GitHub](https://github.com/0rnella/ornellember)
-[NPM](https://www.npmjs.com/package/ornellember)
+* Source code/instructions on [GitHub](https://github.com/0rnella/ornellember)
+
+* Published package on [NPM](https://www.npmjs.com/package/ornellember)
 
 ## Making it
-This was my first package published on NPM, which was an interesting process. I wrote it using functional programming for the most part, and was really inspired by [dayjs](https://day.js.org/)'s approach.
+This was my first package published on NPM, which was an interesting process. I wrote it using functional programming for the most part, and was really inspired by [dayjs](https://day.js.org/)'s approach to immutability and method chainability.
 
 This project has zero dependencies (just dev dependencies), which makes it tinyyy, and I wrote it almost completely using test-driven development! I also invested in writing pretty good docs from jump, even though I was convinced no one would ever use it. 
 

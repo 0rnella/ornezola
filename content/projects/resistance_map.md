@@ -1,11 +1,14 @@
 +++
 title = "Resistance Map"
-date = 2020-10-03
+
+[taxonomies]
+tags = ["vanillaJS"]
 
 [extra]
 header_image = "https://images.ctfassets.net/jpqeq5qzj2oc/4cHrJwMrHuEPQQNuOck0uy/2fe9dded39e93728f7b3ad9d0ba001dc/blm_logo.jpeg"
 header_image_alt="Black Lives Matter logo"
-tags = ["vanilla js"]
+date_built = 2020-06-01
+date_exact = false
 +++
 
 ## The idea
