@@ -18,7 +18,7 @@ const formatApproximateGregorianDate = (date) => {
 const formatOrnellemberDate = ({date, isApproximate}) => {
     const ornellemberDate = ornellember(date);
     return isApproximate 
-        ? formatApproximateOrnellemberDate(date) 
+        ? formatApproximateOrnellemberDate(ornellemberDate) 
         : ornellemberDate.format();
 };
 

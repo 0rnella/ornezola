@@ -3,7 +3,7 @@
 {% block content %}
 <article>
     {% if page.extra.header_image_alt %}
-        <img class="header-image" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
+        <img class="header-image logo" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
     {% endif %}
     <h1 class="title">{{ page.title }}</h1>
     {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
@@ -15,9 +15,19 @@
     {% endif %}
 
     {% if page.extra.date_built %}
-        <time itemprop="datePublished" datetime="{{ page.date }}">
-            <strong>{{ page.extra.date_built }}</strong>
-        </time>
+    <p>
+        Created
+        {% for format in ["gregorian", "ornellember"]%}
+            <time
+                data-{{ format }}
+                itemprop="dateCreated"
+                datetime="{{ page.extra.date_built }}"
+            >
+                {{ page.extra.date_built }}
+            </time>
+            ({{ format}}) 
+        {%endfor%}
+    </p>
     {% endif %}
 
     {{ page.content | safe }}

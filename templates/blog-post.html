@@ -6,16 +6,26 @@
         <img class="header-image" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
     {% endif %}
     <h1 class="title">{{ page.title }}</h1>
-    {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
-    <p>Tags: 
-        {% for tag in page.taxonomies.tags %}
-          <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
-        {% endfor %}
+    <p>
+        Published
+        {% for format in ["gregorian", "ornellember"]%}
+            <time
+                data-{{ format }}
+                itemprop="datePublished"
+                datetime="{{ page.date }}"
+            >
+                {{ page.date }}
+            </time>
+            ({{ format}}) 
+        {%endfor%}
     </p>
+    {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
+        <p>Tags: 
+            {% for tag in page.taxonomies.tags %}
+            <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
+            {% endfor %}
+        </p>
     {% endif %}
-    <time itemprop="datePublished" datetime="{{ page.date }}">
-        <strong>{{ page.date }}</strong>
-    </time>
     {{ page.content | safe }}
 </article>
 {% endblock content %}
