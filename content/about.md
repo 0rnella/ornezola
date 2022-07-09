@@ -15,5 +15,7 @@ I currently work as a full-stack software engineer at Disney Streaming. I consis
 
 I, for the most part, identify as a woman. For pronouns, you can use she or they.
 
+Also, I prefer to use both of my parents' last names, so Friggit-Konaté or Friggit Konaté. But you'll probably see me referred to with only my father's last name in some places.
+
 ## Who (let the dogs out)?
 I have a dog named Pixel, who goes by Pixie, and usually alternates between being scared and silly.
