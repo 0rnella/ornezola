@@ -6,7 +6,7 @@ tags = ["rust", "zola"]
 
 [extra]
 date_built = 2022-07-06
-date_exact = true
+date_approximate = false
 +++
 
 ## The idea

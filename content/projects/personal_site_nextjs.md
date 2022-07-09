@@ -6,7 +6,7 @@ tags = ["typescript", "nextJS", "react"]
 
 [extra]
 date_built = 2021-07-06
-date_exact = true
+date_approximate = false
 +++
 
 ## The idea

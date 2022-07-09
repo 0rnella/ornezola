@@ -8,7 +8,7 @@ tags = ["react", "nodejs"]
 header_image = "./vibecheck_logo.jpg"
 header_image_alt="A logo reading Vibe Check with a black checkmark"
 date_built = 2021-01-18
-date_exact = false
+date_approximate = true
 +++
 
 ## The idea

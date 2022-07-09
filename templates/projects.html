@@ -8,8 +8,9 @@
   {% for page in section.pages | sort(attribute="extra.date_built") | reverse %}
   <li class="project-preview">
         <time 
-            data-ornellember
-            data-exact="{{ page.extra.date_exact| safe }}"
+            {% if page.extra.date_approximate | safe %}
+                data-date-approximate
+            {% endif %}
             itemprop="dateCreated"
             datetime="{{ page.extra.date_built }}"
         >
