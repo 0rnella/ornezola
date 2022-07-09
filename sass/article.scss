@@ -1,9 +1,45 @@
 @import "colors";
 
+@media only screen and (max-width : 600px) {
+    article {
+        &.blog-preview {
+            display: flex;
+            flex-direction: column;
+
+            .preview-title{
+                order: -1;
+            }
+            .pipe-separator {
+                display: none;
+            }
+        }
+    }
+}
+
 article {
     &.blog-preview {
         .preview-title {
             font-weight: bold;
         }
+    }
+
+    #toc {
+        padding: 2rem;
+        width: 100%;
+        box-sizing: border-box;
+        border: 3px solid $toc-color;
+        
+        ul {
+            list-style-type: '# ';
+        }
+
+        a {
+            text-decoration-color: $toc-color;
+        }
+    }
+
+    .zola-anchor {
+        text-decoration-color: $toc-color;
+        padding-right: 1rem;
     }
 }

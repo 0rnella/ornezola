@@ -2,30 +2,56 @@
 
 {% block content %}
 <article>
-    {% if page.extra.header_image_alt %}
-        <img class="header-image" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
-    {% endif %}
-    <h1 class="title">{{ page.title }}</h1>
-    <p>
-        Published
-        {% for format in ["gregorian", "ornellember"]%}
-            <time
-                data-{{ format }}
-                itemprop="datePublished"
-                datetime="{{ page.date }}"
-            >
-                {{ page.date }}
-            </time>
-            ({{ format}}) 
-        {%endfor%}
-    </p>
-    {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
-        <p>Tags: 
-            {% for tag in page.taxonomies.tags %}
-            <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
-            {% endfor %}
+    <div id="metadata">
+        {% if page.extra.header_image_alt %}
+            <img class="header-image" alt="{{page.extra.header_image_alt}}" src="{{page.extra.header_image}}">
+        {% endif %}
+        <h1 class="title">{{ page.title }}</h1>
+        <p>
+            Published
+            {% for format in ["gregorian", "ornellember"]%}
+                <time
+                    data-{{ format }}
+                    itemprop="datePublished"
+                    datetime="{{ page.date }}"
+                >
+                    {{ page.date }}
+                </time>
+                ({{ format}}) 
+            {%endfor%}
         </p>
-    {% endif %}
+
+        {% if page.toc %}
+            <div id="toc">
+                <b>Jump ahead:</b>
+                <ul>
+                {% for h1 in page.toc %}
+                    <li>
+                        <p>
+                            <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+                            {% if h1.children %}
+                                <ul>
+                                    {% for h2 in h1.children %}
+                                        <li>
+                                            <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </p>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
+            <p>Tags: 
+                {% for tag in page.taxonomies.tags %}
+                <a class="tag" href="/tags/{{ tag | safe }}"">{{ tag }}</a>
+                {% endfor %}
+            </p>
+        {% endif %}
+    </div>
     {{ page.content | safe }}
 </article>
 {% endblock content %}

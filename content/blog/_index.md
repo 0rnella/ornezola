@@ -4,4 +4,5 @@ sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
 pagination = 5
+insert_anchor_links = "left"
 +++
