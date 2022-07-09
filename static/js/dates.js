@@ -25,7 +25,7 @@ const formatOrnellemberDate = ({date, isApproximate}) => {
 const formatGregorianDate = ({date, isApproximate}) => {
     return isApproximate
         ? formatApproximateGregorianDate(date) 
-        : date.toLocaleDateString();
+        : date.toLocaleDateString('en-US');
 };
 
 const formatDate = ({date, isOrnellember, isApproximate}) => {
@@ -39,7 +39,7 @@ Array.from(dates).forEach(time => {
     // if there is no date, set it as today
     if (!time.dateTime) {
         const today = new Date();
-        time.dateTime = today.toLocaleDateString();
+        time.dateTime = formatDate({date: today});
     }
 
     const date = new Date(time.dateTime);
