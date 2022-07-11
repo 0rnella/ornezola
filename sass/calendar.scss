@@ -1,0 +1,28 @@
+@import "colors";
+
+#calendar {
+    display: flex;
+    flex-wrap: wrap;
+
+    .month {
+        text-align: center;
+        padding: 1em;
+
+        .gregorian-day {
+            font-size: 0.8rem;
+        }
+        .jan, .may, .sep {
+            background-color: lightblue;
+        }
+        .feb, .jun, .oct {
+            background-color: palegoldenrod;
+        }
+        .mar, .jul, .nov {
+            background-color: lightgrey;
+        }
+        .apr, .aug, .dec {
+            background-color: lightpink;
+        }
+    }
+
+}

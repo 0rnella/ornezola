@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block js %} 
+    <script src ="/js/calendar.js" defer></script>
+{% endblock js %}
+{% block content %}
+    <h1 class="title">{{ page.title }}</h1>
+    <div id="calendar"></div>
+{% endblock %}
