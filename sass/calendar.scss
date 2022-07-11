@@ -12,16 +12,16 @@
             font-size: 0.8rem;
         }
         .jan, .may, .sep {
-            background-color: lightblue;
+            background-color: lightgrey;
         }
         .feb, .jun, .oct {
-            background-color: palegoldenrod;
+            background-color: lightpink;
         }
         .mar, .jul, .nov {
             background-color: lightgrey;
         }
         .apr, .aug, .dec {
-            background-color: lightpink;
+            background-color: $accent-light;
         }
     }
 
